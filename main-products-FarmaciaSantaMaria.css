@@ -204,7 +204,7 @@ body {
 	.orders-info {
 		width: 70vw;
 		height: 22vh;
-		background-color: white;
+		background-color: #00AAD5;
 	}
 
 	.span-div{
@@ -229,7 +229,7 @@ body {
 	.orders-info {
 		width: 70vw;
 		height: 23vh;
-		background-color: white;
+		background-color: #00AAD5;
 	}
 
 	.span-div{
@@ -254,7 +254,7 @@ body {
 	.orders-info {
 		width: 70vw;
 		height: 23vh;
-		background-color: white;
+		background-color: #00AAD5;
 	}
 
 	.span-div{
@@ -270,12 +270,12 @@ body {
 	}
 
     .orders-title {
-	    color: black;
+	    color: gray;
 	    font-size: 2.5rem;
     }
 
 	.orders-description {
-		color: black;
+		color: gray;
 		font-size: 1.2rem;
 	}
 
@@ -306,7 +306,7 @@ body {
 	.orders-info {
 		width: 70vw;
 		height: 22.5vh;
-		background-color: white;
+		background-color: #00AAD5;
 	}
 
 	.span-div{

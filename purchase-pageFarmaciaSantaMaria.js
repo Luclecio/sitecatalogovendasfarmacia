@@ -1,7 +1,7 @@
 //type:  snacks (fraldas), candy (higiene e beleza),  cakes (Remédios),  drinks (dermocosméticos).
 let items = [
-    {id:1, name:'Huggies', img:'img/huggies.png', type: 'snacks', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'130g'},
-    {id:2, name:'Fralda Calça', img:'img/fraldacalca.png', type: 'snacks', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'130g'},
+    {id:1, name:'Huggies', img:'img/huggies.png', type: 'snacks', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'P, M, G, GG, XXG'},
+    {id:2, name:'Huggies', img:'img/huggies.png', type: 'snacks', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'P, M, G, GG, XXG'},
     {id:3, name:'Dermo', img:'img/dermo.png', type: 'drinks', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'350Ml'},
     {id:4, name:'Dermo', img:'img/dermo.png', type: 'drinks', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'300Ml '},
     {id:5, name:'Dermo', img:'img/dermo.png',type: 'drinks', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'500Ml '},
@@ -12,21 +12,21 @@ let items = [
     {id:10, name:'Dermo', img:'img/dermo.png',type: 'drinks', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'290ML'},
 
 
-    {id:11, name:'Luftal Gel', img:'img/luftalgel.png', type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:12, name:'Mirador', img:'img/mirador.png',type: 'cakes',price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:11, name:'Luftal Gel', img:'img/vapohub.png', type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:12, name:'Vapohub', img:'img/vapohub.png',type: 'cakes',price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
     {id:13, name:'Ativday', img:'img/ativday.png',type: 'cakes',price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:14, name:'Mirador', img:'img/mirador.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:15, name:'Mirador', img:'img/mirador.png',type: 'cakes', price:[24.00, 24.00, 24.00], sizes:[' ', '',''], description:'Original!'},
-    {id:16, name:' Mirador', img:'img/mirador.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:17, name:'Mirador', img:'img/mirador.png',type: 'cakes',price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:18, name:'Mirador', img:'img/mirador.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:19, name:'Mirador', img:'img/mirador.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:20, name:'Mirador', img:'img/mirador.png', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:21, name:'Mirador', img:'img/mirador.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:22, name:'Mirador', img:'img/mirador.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:23, name:'Mirador', img:'img/mirador.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:24, name:'Mirador', img:'img/mirador.png',type: 'cakes',  price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
-    {id:25, name:'Mirador', img:'img/mirador.png',type: 'cakes',  price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:14, name:'Vapohub', img:'img/vapohub.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:15, name:'Vapohub', img:'img/vapohub.png',type: 'cakes', price:[24.00, 24.00, 24.00], sizes:[' ', '',''], description:'Original!'},
+    {id:16, name:'Vapohub', img:'img/vapohub.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:17, name:'Vapohub', img:'img/vapohub.png',type: 'cakes',price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:18, name:'Vapohub', img:'img/vapohub.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:19, name:'Vapohub', img:'img/vapohub.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:20, name:'Vapohub', img:'img/vapohub.png', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:21, name:'Vapohub', img:'img/vapohub.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:22, name:'Vapohub', img:'img/vapohub.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:23, name:'Vapohub', img:'img/vapohub.png',type: 'cakes', price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:24, name:'Vapohub', img:'img/vapohub.png',type: 'cakes',  price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
+    {id:25, name:'Vapohub', img:'img/vapohub.png',type: 'cakes',  price:[49.99, 49.99, 49.99], sizes:[' ', '',''], description:'Original!'},
 
 
 

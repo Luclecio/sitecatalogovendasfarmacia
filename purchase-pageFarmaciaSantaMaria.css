@@ -15,17 +15,17 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar {
 	width: 20px;
-	background-color: #F5F5F5;
+	background-color: gray;
 }
 
 body::-webkit-scrollbar-thumb {
 	border-radius: 5px;
-	background-color: white;
+	background-color: gray;
 }
 
 body {
 	color: var(--text-color);
-	background: #white;
+	background: white;
 }
 
 #logo {
@@ -48,8 +48,8 @@ body {
 	width: max-content;
 	border-radius: 30px;
 	font-size: 8em;
-	color: black;
-	background-color: gray;
+	color: gray;
+	background-color: #00AAD5;
 }
 
 #main {
@@ -75,7 +75,7 @@ body {
 }
 
 #title-div {
-	color: black;
+	color: gray;
 	margin-top: 5%;
 	margin-bottom: 2%;
 	text-align: center;
@@ -110,7 +110,7 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	margin-top: 10px;
-	background-color: white;
+	background-color: #00AAD5;
 	border-radius: 25% 25% 15% 15% ;
 }
 
@@ -126,7 +126,7 @@ body {
 .snacks-title {
 	margin-top: 10px;
 	font-size: 1.5rem;
-	color: black;
+	color: gray;
 }
 
 .snacks-footer {
@@ -135,12 +135,12 @@ body {
 	align-items: center;
 	justify-content: center;
 	justify-content: space-between;
-	color: black;
+	color: gray;
 }
 
 .snacks-span {
 	color: white !important;
-	background-color: black;
+	background-color: gray;
 	text-align: center;
 	border-radius: 15px;
 	padding: 5px 10px;
@@ -272,7 +272,7 @@ header {
 }
 
 .menu-openner {
-    background-color: white;
+    background-color: #00AAD5;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -283,7 +283,7 @@ header {
 .menu-openner span {
     font-size: 100px;
     font-weight: 700;
-    color: black;
+    color: gray;
 }
 
 .menu-openner:hover {
@@ -377,7 +377,7 @@ aside.show {
 .menu-item--img {
     width:200px;
     height:200px;
-    background-color:#EEE;
+    background-color:gray;
     border-radius:40px;
     box-shadow:0px 10px 50px rgba(0, 0, 0, 0.2);
 }
@@ -391,7 +391,7 @@ aside.show {
 
 
 .menu-item a:hover .menu-item--add {
-    background-color:#244c88;
+    background-color:#647b9e;
 }
 
 .menu-item--price {
@@ -412,7 +412,7 @@ aside.show {
 .menu-item--desc {
     font-family:novafonte;
     font-size:16px;
-    color:#white;
+    color: white;
     margin-top:10px;
 }
 
@@ -432,10 +432,10 @@ aside.show {
 
 .menuWindowBody {
     width:900px;
-    background-color:#white;
+    background-color: #00AAD5;
     color: black;
     border-radius:10px;
-    box-shadow:0px 0px 15px #999;
+    box-shadow:0px 0px 15px #00AAD5;
     display:flex;
     margin:20px 0px;
 }
@@ -732,7 +732,7 @@ aside.show {
         top:0;
         bottom:0;
         transition: all ease .1s;
-        background: #white;
+        background: white;
     }
 
     aside.show {
